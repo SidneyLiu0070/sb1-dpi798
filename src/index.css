@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+  @apply text-gray-800;
+}
+
+.prose h2 {
+  @apply text-lg font-semibold mt-6 mb-3;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose strong {
+  @apply font-semibold text-gray-900;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4;
+}
+
+.prose li {
+  @apply mb-2;
+}
